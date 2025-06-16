@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.css";
 import next from "../../assets/next.png";
 import prev from "../../assets/prev.png";
