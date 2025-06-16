@@ -1,3 +1,86 @@
-.hero{
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/slide-01.jpg');
+    background-position: center;
+    background-size: cover; /* Fix: Fill the area while maintaining aspect ratio */
+    background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+    color: #fff;
+    display: flex;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px ;
+    max-width: 800px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+    margin-top: 160px;
+}
+
+.hero-text h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.hero-text p{
+    line-height: 1.5;
+    font-size: 12px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.hero-text span {
+    color: rgb(226, 36, 36);
+}
+
+.line{
+   height: 4px;              /* Thickness of the line */
+  background-color: white;   /* Line color */
+  border: none;             /* Remove default border */
+  margin: 20px 0;
+  width: 10%;
     
 }
+
+.buttons{
+margin-top: 40px;
+}
+
+.button-one{
+background-color: #28c76f; 
+  color: white;           
+  padding: 10px 25px;        
+  border: none;             
+  border-radius: 5px;        
+  font-size: 12px;          
+  font-weight: 600;         
+  cursor: pointer;         
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease;
+}
+
+.button-two{
+    background-color: rgb(214, 49, 49); 
+  color: white;           
+  padding: 10px 20px;        
+  border: none;             
+  border-radius: 5px;        
+  font-size: 12px;          
+  font-weight: 600;         
+  cursor: pointer;         
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease;
+  margin-left: 15px;
+}
+
+.arrowbuttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  z-index: 2;
+}
+
+

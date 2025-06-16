@@ -1,11 +1,14 @@
 .nav-container{
-    width: 100%;
- background-color:grey;
+width: 100%;
  padding: 12px 14px;
+ position: fixed;
  color: white;
  display: flex;
  align-items: center;
  justify-content: space-between;
+ top :0;
+    left:0;
+    z-index:10;
  
 }
 
