@@ -1,0 +1,70 @@
+.testimonials-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    margin-bottom: 50px;
+}
+
+.quote-icon{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    display: flex;
+    width: 60%;
+    height: 45vh;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0 10px 12px rgba(14, 13, 13, 0.1);
+}
+
+
+.testimonial-image{
+ width: 230px;
+  height: auto;
+}
+
+.text-testimonial{
+    padding: 25px;
+}
+
+.text-testimonial p{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.text-testimonial h5{
+    color: rgb(93, 173, 13);
+    margin-top: 10px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+    margin-top: 0; 
+}
+
+
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #ff5722; 
+      animation: blink 1.2s infinite ease-in-out;
+    }
+
+    .dot:nth-child(1),
+    .dot:nth-child(3) {
+      background-color: rgba(255, 87, 34, 0.5);
+      animation-delay: 0s;
+    }
+
+    .dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
