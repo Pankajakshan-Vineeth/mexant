@@ -1,0 +1,36 @@
+.footer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    background-color: rgb(28, 28, 71);
+    padding: 40px;
+    
+}
+
+.logo-container{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 95px;
+}
+
+.company-name{
+    width:14%;
+    height: 40px;
+    margin-right: 15px;    
+}
+
+.darkblue-container {
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgb(20, 75, 37);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+}

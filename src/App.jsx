@@ -1,5 +1,7 @@
 import Contact from "./components/Contact/Contact";
+import Copyright from "./components/Copyright/Copyright";
 import Crypto from "./components/Crypto/Crypto";
+import Footer from "./components/Footer/Footer";
 import Grid from "./components/Grid/Grid";
 import Hero from "./components/Hero/Hero";
 import NavBar from "./components/NavBar/NavBar";
@@ -19,6 +21,8 @@ const App = () => {
       <Contact />
       <Title subTitle="Testimonials" title="What They Say" />
       <Testimonials/>
+      <Footer/>
+      <Copyright/>
     </>
   );
 };
