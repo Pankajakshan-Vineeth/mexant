@@ -1,0 +1,30 @@
+.container{
+     width: 100%;
+    height: 40vh;
+    background: url('../../assets/cta-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: #fff;
+    display: flex;
+}
+
+.business-text{
+    margin-top: 90px;
+    margin-left: 130px;
+    width:30%
+}
+
+.business-buttons{
+   margin-left: 400px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+
+.green{
+    color: rgb(80, 236, 80);
+}
+
+.red{
+    color: rgb(230, 89, 89);
+}
