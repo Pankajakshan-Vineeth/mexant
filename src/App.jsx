@@ -1,3 +1,4 @@
+import Contact from "./components/Contact/Contact"
 import Crypto from "./components/Crypto/Crypto"
 import Grid from "./components/Grid/Grid"
 import Hero from "./components/Hero/Hero"
@@ -14,6 +15,7 @@ const App = () => {
       <Crypto/>
       <Title subTitle="About Us" title="Know Us Better"/>
       <Table/>
+      <Contact/>
     </>
   )
 }
